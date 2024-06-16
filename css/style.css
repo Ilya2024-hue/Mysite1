@@ -1,0 +1,283 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin:0;
+    font-family: 'Oswald', sans-serif ;
+    font-weight: 400;
+}
+:root {
+    --accent-color: #205AF0;
+    --dark-color: #000000;
+    --background-color: #ddd; 
+    --gray-color: #999;
+
+}
+.text-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 150px;
+    text-transform: uppercase;
+}
+.text-h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    text-align: center;
+}
+.text-h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.text-p-reviews {
+    font-family: 'Open Sans', sans-serief;
+    font-size: 30px;
+    line-height: 21px;
+}
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif; 
+*/
+.header {
+ min-height: 810px;
+ background-image: url(../img/snos-zdanij\ 1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.header-build {
+    min-height: 810px;
+    background-image: url(../img/main1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.header-ground {
+    min-height: 810px;
+    background-image: url(../img/vidyzemljanyhrabot1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .header-arenda {
+     min-height: 810px;
+     background-image: url(../img/1661398806_1-kartinkin-net-p-spetstekhnika-oboi-krasivo-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     }
+     .header-arenda2 {
+        min-height: 810px;
+        background-image: url(../img/20181205_154937-scaled\ 1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .header-sepych {
+            min-height: 810px;
+            background-image: url(../img/043\ 1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+.intro-block {
+    min-height: 110px; /* Высота блока может быть изменена в зависимости от ваших потребностей */
+    width: 800px;
+    display: flex;
+    background-color: hsl(223, 45%, 58%);
+    margin-left: 120px;
+    background-color: hsl(223, 45%, 58%, 0.5);
+    margin-top: 180px; 
+}
+.h1 {
+    font-size: 32px; /* Размер текста */
+}
+.h5 {
+    position: absolute;
+    top: 32px;
+    left: 298px;
+    font-size: 24px;
+    color: white;
+}
+.h4 {
+    position: absolute;
+    top: 6px;
+    left: 290px;
+    font-size: 32px;
+    color: white;
+}
+.h7 {
+    position: absolute;
+    bottom: 10;
+    left: 290px;
+    font-size: 32px;
+}
+.another-container {
+    display: flex; /* Располагаем элементы в ряд */
+    justify-content: space-evenly; /* Равномерно распределяем пространство между элементами */
+    font-size: 20px;
+    margin-top: 120px;
+}
+.image-container img {
+    max-width: 100%; /* Сохраняем пропорции изображений */
+    height: 120px; /* Автоматически подстраиваем высоту изображений */
+    margin: 0 80px; /* Добавляем немного отступа между изображениями */
+    margin-top: 110px; 
+    color: white;
+}
+.header_title {
+    padding-top: 20px;
+    margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex end;
+}
+.text {
+    width: 50px;
+    height: 50px; 
+    cursor: pointer;
+}
+.h1 {
+    font-weight: 500;
+    font-size: 150px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.block {
+    width: 1200px;
+    height: 400px;
+    margin: 120px auto; /* Добавим небольшой отступ сверху и снизу для разделения блоков */
+    padding: 160px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.block.reverse {
+    flex-direction: row-reverse; /* Изменяет порядок элементов на обратный */
+}
+.image-wrapper {
+    flex: 50%; 
+    padding-right: 20px;
+    display: block;
+}
+.image-wrapper img {
+    width: 100%; /* Изображение занимает всю доступную ширину */
+    display: block; /* Убираем лишние отступы */
+    border-radius: 10px; /* Закругляем углы изображения */
+}
+.content {
+    flex: 1; /* Занимаем правую половину блока */
+    color: rgb(0, 0, 0); /* Пример стиля текста */
+}
+.block img {
+    width: 50%; 
+    height: 350px;
+}
+.block .content {
+    width: 50%; 
+    max-width: 550px;
+    padding-top: 20px; /* Верхний отступ */
+    padding-bottom: 20px; /* Нижний отступ */
+    padding-left: 70px; /* Левый отступ */
+    padding-right: 20px; /* Правый отступ */
+    color: rgb(0, 0, 0); 
+}
+.block h2 {
+    font-size: 20px; /* Размер заголовка h2 */
+}
+.btn {
+    background-color: #205AF0; /* Задайте цвет фона для кнопки */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.btn:hover {
+    background-color: #4f78dd; /* Измените цвет фона при наведении курсора */
+}
+.extra-text-container {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    gap: 30px;
+    align-items: baseline;
+}
+#text1 { /* Стили для первой надписи */
+    font-size: 30px;
+    color: white;
+}
+#text2 { /* Стили для второй надписи */
+    font-size: 30px;
+    color: white;
+}
+#text3 { /* Стили для третьей надписи */
+    font-size: 30px;
+    color: white;
+    margin-right: 260px; /* додатковий відступ після третього елемента */
+}
+#text4 { /* Стили для четвертой надписи */
+    font-size: 20px;
+    color: white;
+    margin-right: 60px;
+}
+#text5 {
+    color: #ffffff;
+    font-size: 20px;
+    }
+ #text6, #text7 {
+    font-size: 20px;
+    color: #8F8F8F;
+    gap: 14px;
+}
+#text7 {
+margin-right: 120px;
+}
+
+.image-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-item img {
+	width: 100px;
+	height: 120px;
+}
+
+.image-mask_group img{
+	filter: grayscale(0%);
+}
+.footer-text {
+    background-color: #ffffff; /* Цвет фона */
+    padding: 20px; /* Поля вокруг текста */
+    text-align: right; 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 260px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.footer-text-item {
+    font-size: 20px; /* Размер шрифта */
+    margin: 0 40px; /* Внешние отступы */
+}
+.footer-text img {
+    width: 350px; /* Задаем ширину изображения */
+    height: auto; /* Подстраиваем высоту под пропорции изображения */
+    margin-top: -170px;
+    margin-right: 120px;
+}
+
