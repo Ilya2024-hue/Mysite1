@@ -47,44 +47,45 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif; 
 */
 .header {
- min-height: 810px;
+ min-height: 700px;
  background-image: url(../img/snos-zdanij\ 1.jpg);
  background-repeat: no-repeat;
  background-size: cover;
 }
 .header-build {
-    min-height: 810px;
+    min-height: 700px;
     background-image: url(../img/main1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
 .header-ground {
-    min-height: 810px;
+    min-height: 700px;
     background-image: url(../img/vidyzemljanyhrabot1\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
     .header-arenda {
-     min-height: 810px;
+     min-height: 700px;
      background-image: url(../img/1661398806_1-kartinkin-net-p-spetstekhnika-oboi-krasivo-1.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      }
      .header-arenda2 {
-        min-height: 810px;
+        min-height: 700px;
         background-image: url(../img/20181205_154937-scaled\ 1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         }
         .header-sepych {
-            min-height: 810px;
+            min-height: 700px;
             background-image: url(../img/043\ 1.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             }
 .intro-block {
     min-height: 110px; /* Высота блока может быть изменена в зависимости от ваших потребностей */
-    width: 800px;
+    display: inline;
+    max-width: 1000px;
     display: flex;
     background-color: hsl(223, 45%, 58%);
     margin-left: 120px;
@@ -120,11 +121,13 @@ font-family: 'Oswald', sans-serif;
     font-size: 20px;
     margin-top: 120px;
 }
-.image-container img {
+.image-container img {            
     max-width: 100%; /* Сохраняем пропорции изображений */
-    height: 120px; /* Автоматически подстраиваем высоту изображений */
-    margin: 0 80px; /* Добавляем немного отступа между изображениями */
+    height: 100px; /* Автоматически подстраиваем высоту изображений */
+    justify-content: center;
     margin-top: 110px; 
+    margin-right: 90px; 
+    margin-left: 100px; 
     color: white;
 }
 .header_title {
